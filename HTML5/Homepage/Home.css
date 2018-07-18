@@ -1,0 +1,41 @@
+.tabContainer{
+    width: 100%;
+    height: 350px;
+}
+body{
+	background: url(pic1.jpg) no-repeat;
+	background-size: cover;
+	
+}
+.tabContainer .buttonContainer{
+    height: 15%;
+}
+.tabContainer .buttonContainer button{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #eee;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+.tabContainer .tabPanel{
+    height: 250%;
+    background-color: gray;
+    color: white;
+    padding-top: 100px;
+    font-size: 22px;
+    display: none;
+}
+
+.tabContainer .buttonContainer .image{
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin-bottom: 20px;
+}
